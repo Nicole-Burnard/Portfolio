@@ -6,6 +6,8 @@
   <title>Portfolio</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" media="screen" href="portfolio.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
+  integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <script src="portfolio.js"></script>
 </head>
 <body>
@@ -17,7 +19,7 @@
       <li><a class="nav-link" href="#home">Home</a></li>
     </ul>
   </nav>
-  <img id="menu" src="https://img.icons8.com/ios/50/000000/menu.png">
+  <a><img id="menu" src="https://img.icons8.com/ios/50/FFFFFF/menu.png"></a>
   <section id="home">
     <div id="home-info">
       <h1 id="name">Nicole Burnard</h1>
@@ -27,55 +29,82 @@
     </div>
   </section>
   <section id="projects">
-    <div id="display">
-      <a class="project-link" href="https://auditelsystems.com/" target="_blank">
-        <img class="project-img" src="https://i.ibb.co/z8b5mL2/auditel-small.png" alt="Auditel systems website">
-      </a> 
-      <a class="project-link" href="https://codepen.io/Nicole-Burnard/pen/omdEoz" target="_blank">
-        <img class="project-img" src="https://i.ibb.co/x7JLNmH/tribute-page-small.png" alt="Tribute page project 1">
-        <!--<h6><a class="view-project">View Project</a></h6>
-        <h6><a class="source-code">Source Code</a></h6>-->
-      </a>
-      <a class="project-link" href="https://codepen.io/Nicole-Burnard/pen/qvXeKw" target="_blank">
-        <img class="project-img" src="https://i.ibb.co/ns3FjcV/survey-form-small.png" alt="Survey form project 2">
-        <!--<h6><a class="view-project">View Project</a></h6>
-        <h6><a class="source-code">Source Code</a></h6>-->
-      </a>
+    <div id="display" class="row">
+      <div class="col-md-3 col-sm-6 col-xs-6">
+        <a class="project-link" href="https://auditelsystems.com/" target="_blank">
+          <img class="project-img" src="https://i.ibb.co/pLGRz9M/auditel-xs.png" alt="Auditel systems website">
+        </a><br> 
+        <h6 class="view-project"><a>View Project</a></h6>
+        <h6 class="source-code"><a>Source Code</a></h6><br>
+        <ul>
+          <li class="projects-li">Tech 1</li>
+          <li class="projects-li">Tech 2</li>
+          <li class="projects-li">Tech 3</li>
+        </ul><br>
+        <p class="projects-p">This is a website create for 
+            Aduitel UK, Main responsibilites
+            included: Developement, sourcing,
+            gyuhiohuijhbfjicfvjhbfijfhijjiji</p>
+      </div>
+      <div class="col-md-3 col-sm-6 col-xs-6">
+        <a class="project-link" href="https://codepen.io/Nicole-Burnard/pen/omdEoz" target="_blank">
+          <img class="project-img" src="https://i.ibb.co/wgC3jdT/tribute-page-xs.png" alt="Tribute page project 1">
+        </a><br>
+        <h6 class="view-project"><a>View Project</a></h6>
+        <h6 class="source-code"><a>Source Code</a></h6><br>
+        <ul>
+          <li class="projects-li">Tech 1</li>
+          <li class="projects-li">Tech 2</li>
+          <li class="projects-li">Tech 3</li>
+        </ul><br>
+        <p class="projects-p">This is a website create for 
+            Aduitel UK, Main responsibilites
+            included: Developement, sourcing,
+            gyuhiohuijhbfjicfvjhbfijfhijjiji</p>
+      </div>
+      <div class="col-md-3 col-sm-6 col-xs-6">
+        <a class="project-link" href="https://codepen.io/Nicole-Burnard/pen/qvXeKw" target="_blank">
+          <img class="project-img" src="https://i.ibb.co/mS172vP/survey-form-xs.png" alt="Survey form project 2">
+        </a><br>
+        <h6 class="view-project"><a>View Project</a></h6>
+        <h6 class="source-code"><a>Source Code</a></h6><br>
+        <ul>
+          <li class="projects-li">Tech 1</li>
+          <li class="projects-li">Tech 2</li>
+          <li class="projects-li">Tech 3</li>
+        </ul><br>
+        <p class="projects-p">This is a website create for 
+            Aduitel UK, Main responsibilites
+            included: Developement, sourcing,
+            gyuhiohuijhbfjicfvjhbfijfhijjiji</p>
+      </div>
+      <div class="col-md-3 col-sm-6 col-xs-6">
       <a class="project-link" href="https://codepen.io/Nicole-Burnard/pen/RdeWbQ" target="_blank">
-        <img class="project-img" src="https://i.ibb.co/BnqzKHv/product-page-small.png" alt="Product page project 3"> 
-        <!--<h6><a class="view-project">View Project</a></h6>
-        <h6><a class="source-code">Source Code</a></h6>-->
-      </a>  
-    </div>
-    <div id="project-links">
-      <div class="view-source">
-        <h6><a class="view-project">View Project</a></h6>
-        <h6><a class="source-code">Source Code</a></h6>
-      </div>
-      <div class="view-source">
-        <h6><a class="view-project">View Project</a></h6>
-        <h6><a class="source-code">Source Code</a></h6>
-      </div>
-      <div class="view-source">
-        <h6><a class="view-project">View Project</a></h6>
-        <h6><a class="source-code">Source Code</a></h6>
-      </div>
-      <div class="view-source">
-        <h6><a class="view-project">View Project</a></h6>
-        <h6><a class="source-code">Source Code</a></h6>
+        <img class="project-img" src="https://i.ibb.co/82ZQhZt/product-page-xs.png" alt="Product page project 3"> 
+      </a><br>  
+      <h6 class="view-project"><a>View Project</a></h6>
+      <h6 class="source-code"><a>Source Code</a></h6><br>
+      <ul>
+        <li class="projects-li">Tech 1</li>
+        <li class="projects-li">Tech 2</li>
+        <li class="projects-li">Tech 3</li>
+      </ul><br>
+      <p class="projects-p">This is a website create for 
+          Aduitel UK, Main responsibilites
+          included: Developement, sourcing,
+          gyuhiohuijhbfjicfvjhbfijfhijjiji</p>
       </div>
     </div>
   </section>
   <section id="about">
-    <div id="words">
+    <div id="words" class="col-md-8">
       <h1 id="about-title"><span id="a-span">About Me</span></h1>
       <p id="about-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
         sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
         Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
     </div>
-    <div id="picture">
+    <div id="picture" class="col-md-4">
       <img id="profile-img" src="https://i.ibb.co/dBXdN9Y/biscuit2.png" alt="biscuit2" border="0">
-      <!--<img id="profile-img" src="https://i.ibb.co/DbRDwbN/Biscuit.jpg" alt="Biscuit">-->
     </div>
   </section>
   <section id="contact">
@@ -91,28 +120,31 @@
       </form>
     </div>
   </section>
-  <footer id="footer">
-    <div class="link">
+  <footer id="footer" class="row">
+    <div class="link" class="col-sm-1">
       <a class="profile-link" href="https://github.com/Nicole-Burnard" target="_blank">
         <img src="https://img.icons8.com/ios/50/FFFFFF/github-filled.png">
       </a>
     </div>
-    <div class="link">
+    <div class="link" class="col-sm-1">
       <a class="profile-link" href="https://www.linkedin.com/in/nicole-burnard/" target="_blank">
         <img src="https://img.icons8.com/ios/50/FFFFFF/linkedin-filled.png">
       </a>
     </div>
-    <div class="link">
+    <div class="link" class="col-sm-1">
       <a class="profile-link" href="https://codepen.io/Nicole-Burnard/" target="_blank">
         <img src="https://img.icons8.com/ios/50/FFFFFF/codepen-filled.png">
       </a>
     </div>
-    <div class="link">
+    <div class="link" class="col-sm-1">
       <a class="profile-link" href="mailto:burnard182@gmail.com">
         <img src="https://img.icons8.com/ios/50/FFFFFF/gmail-filled.png">
       </a>
     </div>
-    <p>Copyright &copy; 2019, Developed by Nicole Burnard</p>
+    <div class="col-sm-4"></div>
+    <div class="col-sm-4">
+      <p id="footer-p">Copyright &copy; 2019, Developed by Nicole Burnard</p>
+    </div>
   </footer>
 </body>
 </html>
